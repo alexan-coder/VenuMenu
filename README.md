@@ -14,18 +14,18 @@ User can comment on Venues with a description of their opinion
 
 ## Technologies
 
-Ruby 2.1.2
-PostgreSQL Database
-OmniAuthorization
-Rails
-Javascript
-HTML
-CSS
-JQuery
-Adobe Photoshop
-Adobe Illustrator
-Songkick API
-After effects
+- Ruby 2.1.2
+- PostgreSQL Database
+- OmniAuthorization
+- Rails
+- Javascript
+- HTML
+- CSS
+- JQuery
+- Adobe Photoshop
+- Adobe Illustrator
+- Songkick API
+- After Effects
 
 
 ## What's next?
@@ -38,6 +38,6 @@ possible yelp rating next to the venue name
 
 ## Set Up
 
-bundle install
-bundle exec rake db:create
-bundle exec rake db:migrate
+- bundle install
+- bundle exec rake db:create
+- bundle exec rake db:migrate
