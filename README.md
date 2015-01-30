@@ -1,43 +1,43 @@
-VenuMenu App
+## VenuMenu App
 
-CORE Function
-	- Rate and comment on specific venues
+Don't forget to add a readme that includes an app description, a link to an ERD, the technologies you used to build the app, and instructions to install the app from scratch
 
-MVP
-	- A user can login w/Twitter or use the app w/out signing in but cannot create watchlists
-	- A user can search venues
-	- A user can comment and rate on venues
+## Description
 
-Models
+VenuMenu is a web app that allows users to search venues by name or location. The data is pulled from the Songkick API. Once a user searches a venue VenuMenu provides results including the name, address, telephone number and a link to the venue website. The web app allows the user to sign in/up with twitter which opens up new features. 
 
-Users
-	- ID
-	- Name
-	- Profile Pic
+## User Stories
 
-	has_many :votes
-	has_many :comments
+User can sign up / sign in with Twitter account
+User can search Venues by name
+User can comment on Venues with a description of their opinion
 
-Venue
-	- ID
-	- Songkick_venue_id
+## Technologies
 
-	has_many :votes through :users
-	has_many :comments through :users
+Ruby 2.1.2
+PostgreSQL Database
+OmniAuthorization
+Rails
+Javascript
+HTML
+CSS
+JQuery
+Adobe Photoshop
+Adobe Illustrator
+Songkick API
+After effects
 
-Comments 
-	 - ID
-	 - User_id
-	 - Venue_id
 
-	 belonds_to :user
+## What's next?
 
-Votes
-	- ID
-	- User_id
-	- Venue_id
-	- Upvotes
-	- Downvotes
+Upvoting and downvoting to rate venues 
+Clickable venues to take the user to a page for that particular venue
+use the map box api to link to the Songclick API and get the latitude/longitude to display a map 
+upcoming events on individual venue page
+possible yelp rating next to the venue name
 
-	belongs_to :user
+## Set Up
 
+bundle install
+bundle exec rake db:create
+bundle exec rake db:migrate
