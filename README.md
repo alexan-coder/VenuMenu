@@ -1,6 +1,4 @@
-## VenuMenu App
-
-Don't forget to add a readme that includes an app description, a link to an ERD, the technologies you used to build the app, and instructions to install the app from scratch
+# VenuMenu App
 
 ## Description
 
@@ -8,9 +6,9 @@ VenuMenu is a web app that allows users to search venues by name or location. Th
 
 ## User Stories
 
-User can sign up / sign in with Twitter account
-User can search Venues by name
-User can comment on Venues with a description of their opinion
+- User can sign up / sign in with Twitter account
+- User can search Venues by name
+- User can comment on Venues with a description of their opinion
 
 ## Technologies
 
